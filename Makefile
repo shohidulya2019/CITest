@@ -19,6 +19,9 @@ TARGET_BINARY = $(BUILD)/$(BINARY)
 # Rules #
 #########
 
+check: $(TARGET_BINARY)
+["$$($(TARGET_BINARY))" = "Hello World"]
+
 all: $(TARGET_BINARY)
 
 clean:
