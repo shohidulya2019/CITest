@@ -26,6 +26,7 @@ check: $(TARGET_BINARY)
 
 all: $(TARGET_BINARY)
 
+
 clean:
 	rm -f $(TARGET_BINARY)
 	rm -f $(OBJ)
